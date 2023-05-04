@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600&family=Caveat:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=VT323&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
 *{
     margin:0;
     padding:0;
@@ -75,4 +81,130 @@ header{
 .about_buttons{
     margin-top:134px;
     display:flex;
+    gap:14px;
 }
+
+
+.button1{
+    padding:8px 24px 9px 19px;
+    background: #8DD83D;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    border:0;
+    cursor:pointer;
+}
+
+.button2{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    padding:8px 19px 9px 19px;
+    border:0;
+    cursor:pointer;
+    font-size: 16px;
+line-height: 21px;
+}
+
+.gifts_section{
+    padding-top:70px;
+    padding-bottom:70px;
+    text-align:center;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.title1{
+    font-size: 48px;
+    line-height: 56px;
+}
+.title2{
+    font-size: 36px;
+line-height: 42px;
+}
+
+.gift{
+    width:320px;
+    height:420px;
+    background:white;
+    color: #435766;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    transition: all 0.5s ease-out;
+    border: 1px solid #8DD83D;
+border-radius: 4px;
+}
+
+.gift:hover{
+    width:352px;
+    height:462px;
+}
+
+.gift_title{
+    color:black;
+}
+
+.gift_dscr{
+    margin-top:13px;
+    color:black;
+}
+.gift_button{
+    width:100%;
+    margin-top:38px;
+    padding:19px 23px;
+    background: #8DD83D;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    border:0;
+}
+.gift_info{
+    
+    text-align:left;
+    padding:21px;
+}
+
+.gifts_list{
+    height:420px;
+    margin-top:43px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.section2{
+    
+    text-align:center;
+    background:url('./img/bg22.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:700px;
+    
+}
+.section3{
+    
+    position:relative;
+    background:url('./img/bg333.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:480px;
+    
+}
+
+.about2{
+    top:114px;
+    left:167px;
+    width:500px;
+}
+
+footer{
+    height:200px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    text-align:center;
+    padding-top:60px;
+    color:white;
+    font-size:36px;
+    font-family: 'Caveat', cursive;
+}
+
+
+
